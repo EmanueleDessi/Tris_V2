@@ -814,6 +814,32 @@ Player.prototype.Controller = function(nbox){
 	}
 }
 
+Player.prototype.Builder = function(){
+
+	var option = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth'];
+	var possibility = new Array();
+	var y = 0;
+
+	for (var i = 0; i <= 8; i++) {
+		
+		var app = option[i];
+
+		if($('#'+app).attr('class') === 'box'){//controllo classe
+
+			possibility[y]=app;
+			y++;
+		}
+	}
+
+	return possibility;
+}
+
+Player.prototype.Brain = function(){
+
+	var bau = this.Builder();
+	console.log(bau);
+}
+
 function IsNotUneven(numero)
 {
     if (isNaN(numero) == false)
