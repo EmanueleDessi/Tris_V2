@@ -61,47 +61,70 @@ $(document).ready(function(){
 
 			var Nbox = $(this).attr('id');
 
-		if (IsNotUneven(i) == true){
-		    
-		   	console.log($(this).attr('class'));
-		   	if($(this).attr('class') != 'box using'){
+			if (IsNotUneven(i) == true){
+			    
+			   	console.log($(this).attr('class'));
+			   	if($(this).attr('class') != 'box using'){
 
-		   		Player1.GetImg(Nbox);
-			   	Player1.Controller(Nbox);
-		   	}else{
+			   		Player1.GetImg(Nbox);
+				   	Player1.Controller(Nbox);
+			   	}else{
 
-		   		i--;
-		   	}    
-		}
-		else{
-		    
-			console.log($(this).attr('class'));
-		   	if($(this).attr('class') != 'box using'){
+			   		i--;
+			   	}    
+			}
+			else{
+			    
+				console.log($(this).attr('class'));
+			   	if($(this).attr('class') != 'box using'){
 
-				Player2.GetImg(Nbox);
-				Player2.Controller(Nbox);
-			}else{
+					Player2.GetImg(Nbox);
+					Player2.Controller(Nbox);
+				}else{
 
-		   		i--;
-		   	}
-		}
+			   		i--;
+			   	}
+			}
 
-		i++;
+			i++;
 
-		if(i == 9){
+			if(i == 9){
 
-			$('#win').find('h1').append('GAME IS OVER');
-			$('#container').show();
-		}
-		
+				$('#win').find('h1').append('GAME IS OVER');
+				$('#container').show();
+			}
+
 		}else{
 
 			var one = $('#unico').val();
 			var two = 'Computer';
 			var Player1 = new Player(one, '1');
 			var Player2 = new Player(two, '2');
-			//Per il computer va creato una nuova funzione solo per il player con nome 'computer', utilizzando l'ereditarietà
-			Player2.Brain();
+
+			var Nbox = $(this).attr('id');
+
+			if (IsNotUneven(i) == true){
+			    
+			   	console.log($(this).attr('class'));
+			   	if($(this).attr('class') != 'box using'){
+
+			   		Player1.GetImg(Nbox);
+				   	Player1.Controller(Nbox);
+			   	}else{
+
+			   		i--;
+			   	}    
+			}
+
+			Player2.Brain(Nbox);
+
+			i+=2;
+
+			if(i == 9){
+
+				$('#win').find('h1').append('GAME IS OVER');
+				$('#container').show();
+			}
 		}
 
 		

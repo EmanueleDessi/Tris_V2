@@ -834,10 +834,310 @@ Player.prototype.Builder = function(){
 	return possibility;
 }
 
-Player.prototype.Brain = function(){
+Player.prototype.Brain = function(nbox){
 
 	var bau = this.Builder();
-	console.log(bau);
+
+	//questo switch è un controllo che serve per cercare di impedire all'avversario di fare tris
+	switch(nbox){
+
+		case 'first':
+
+				if ($('#second').attr('class') === 'box'){
+
+					if ($('#third').attr('class') !== 'box'){
+
+						this.GetImg('second');
+					}
+				}else{
+
+					this.GetImg('third'); 
+				}
+
+				if ($('#fourth').attr('class') === 'box'){
+
+					if ($('#seventh').attr('class') !== 'box'){
+
+						this.GetImg('fourth');
+					}
+				}else{
+
+					this.GetImg('seventh'); 
+				}
+
+				if ($('#fifth').attr('class') === 'box'){
+
+					if ($('#ninth').attr('class') !== 'box'){
+
+						this.GetImg('fifth');
+					}
+				}else{
+
+					this.GetImg('ninth'); 
+				}
+			break;
+
+		case 'second':
+
+				if ($('#first').attr('class') === 'box'){
+
+					if ($('#third').attr('class') !== 'box'){
+
+						this.GetImg('first');
+					}else{
+
+						if ($('#fifth').attr('class') === 'box'){
+
+							if ($('#eighth').attr('class') !== 'box'){
+
+								this.GetImg('fifth');
+							}
+						}else{
+
+							this.GetImg('eighth');
+						}
+					}
+				}else{
+
+					this.GetImg('third'); 
+				}
+			break;
+
+		case 'third':
+
+				if ($('#second').attr('class') === 'box'){
+
+					if ($('#first').attr('class') !== 'box'){
+
+						this.GetImg('second');
+					}
+				}else{
+
+					this.GetImg('first'); 
+				}
+
+				if ($('#sixth').attr('class') === 'box'){
+
+					if ($('#ninth').attr('class') !== 'box'){
+
+						this.GetImg('sixth');
+					}
+				}else{
+
+					this.GetImg('ninth'); 
+				}
+
+				if ($('#fifth').attr('class') === 'box'){
+
+					if ($('#seventh').attr('class') !== 'box'){
+
+						this.GetImg('fifth');
+					}
+				}else{
+
+					this.GetImg('seventh'); 
+				}
+			break;
+
+		case 'fourth':
+
+				if ($('#first').attr('class') === 'box'){
+
+					if ($('#seventh').attr('class') !== 'box'){
+
+						this.GetImg('first');
+					}else{
+
+						if ($('#fifth').attr('class') === 'box'){
+
+							if ($('#sixth').attr('class') !== 'box'){
+
+								this.GetImg('fifth');
+							}
+						}else{
+
+							this.GetImg('sixth');
+						}
+					}
+				}else{
+
+					this.GetImg('seventh'); 
+				}
+			break;		
+
+		case 'fifth':
+
+				if ($('#first').attr('class') === 'box'){
+
+					if ($('#ninth').attr('class') !== 'box'){
+
+						this.GetImg('first');
+					}
+				}else{
+
+					this.GetImg('ninth'); 
+				}
+
+				if ($('#second').attr('class') === 'box'){
+
+					if ($('#eighth').attr('class') !== 'box'){
+
+						this.GetImg('second');
+					}
+				}else{
+
+					this.GetImg('eighth'); 
+				}
+
+				if ($('#third').attr('class') === 'box'){
+
+					if ($('#seventh').attr('class') !== 'box'){
+
+						this.GetImg('third');
+					}
+				}else{
+
+					this.GetImg('seventh'); 
+				}
+
+				if ($('#fourth').attr('class') === 'box'){
+
+					if ($('#sixth').attr('class') !== 'box'){
+
+						this.GetImg('fourth');
+					}
+				}else{
+
+					this.GetImg('sixth'); 
+				}
+			break;
+
+		case 'sixth':
+
+				if ($('#third').attr('class') === 'box'){
+
+					if ($('#ninth').attr('class') !== 'box'){
+
+						this.GetImg('third');
+					}else{
+
+						if ($('#fifth').attr('class') === 'box'){
+
+							if ($('#fourth').attr('class') !== 'box'){
+
+								this.GetImg('fifth');
+							}
+						}else{
+
+							this.GetImg('fourth');
+						}
+					}
+				}else{
+
+					this.GetImg('ninth'); 
+				}
+			break;
+
+		case 'seventh':
+
+				if ($('#eighth').attr('class') === 'box'){
+
+					if ($('#ninth').attr('class') !== 'box'){
+
+						this.GetImg('eighth');
+					}
+				}else{
+
+					this.GetImg('ninth'); 
+				}
+
+				if ($('#fourth').attr('class') === 'box'){
+
+					if ($('#first').attr('class') !== 'box'){
+
+						this.GetImg('fourth');
+					}
+				}else{
+
+					this.GetImg('first'); 
+				}
+
+				if ($('#fifth').attr('class') === 'box'){
+
+					if ($('#third').attr('class') !== 'box'){
+
+						this.GetImg('fifth');
+					}
+				}else{
+
+					this.GetImg('third'); 
+				}
+			break;
+
+		case 'eighth':
+
+				if ($('#seventh').attr('class') === 'box'){
+
+					if ($('#ninth').attr('class') !== 'box'){
+
+						this.GetImg('seventh');
+					}else{
+
+						if ($('#fifth').attr('class') === 'box'){
+
+							if ($('#second').attr('class') !== 'box'){
+
+								this.GetImg('fifth');
+							}
+						}else{
+
+							this.GetImg('second');
+						}
+					}
+				}else{
+
+					this.GetImg('ninth'); 
+				}
+			break;
+
+		case 'ninth':
+
+				if ($('#fifth').attr('class') === 'box'){
+
+					if ($('#first').attr('class') !== 'box'){
+
+						this.GetImg('fifth');
+					}
+				}else{
+
+					this.GetImg('first'); 
+				}
+
+				if ($('#eighth').attr('class') === 'box'){
+
+					if ($('#seventh').attr('class') !== 'box'){
+
+						this.GetImg('eighth');
+					}
+				}else{
+
+					this.GetImg('seventh'); 
+				}
+
+				if ($('#sixth').attr('class') === 'box'){
+
+					if ($('#third').attr('class') !== 'box'){
+
+						this.GetImg('sixth');
+					}
+				}else{
+
+					this.GetImg('third'); 
+				}
+			break;					
+	}
+
+	this.GetImg('fifth');
 }
 
 function IsNotUneven(numero)
