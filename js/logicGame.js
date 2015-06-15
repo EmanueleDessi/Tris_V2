@@ -1,18 +1,21 @@
 $(document).ready(function(){
 
+	var mod = '';
+
 	$('.select').click(function(){
 
-		if ($(this).attr('id') == 'playMulti'){
+		if ($(this).attr('id') == 'Multi'){
 
 			$('#selectMod').hide();
-			$('#selectPlayer').show();
+			$('#selectPlayerMulti').show();
 		}else{
 
-			//div di selezione nella modalità single player
+			$('#selectMod').hide();
+			$('#selectPlayerSingle').show();
 		}
 	});
 
-	$('#play').click(function(){
+	$('#playMulti').click(function(){
 		
 		if($('#1').val() == '' || $('#2').val() == '')
 		{
@@ -22,6 +25,22 @@ $(document).ready(function(){
 
 			$('#container2').hide();
 		}
+
+		mod = $(this).attr('id');
+	});
+
+	$('#playSingle').click(function(){
+		
+		if($('#unico').val() == '')
+		{
+
+			$('#alert').show();
+		}else{
+
+			$('#container2').hide();
+		}
+
+		mod = $(this).attr('id');
 	});
 
 	$('#ok').click(function(){
@@ -33,10 +52,21 @@ $(document).ready(function(){
 
 	$('.box').click(function(){
 
-		var one = $('#1').val();
-		var two = $('#2').val();
-		var Player1 = new Player(one, '1');
-		var Player2 = new Player(two, '2');
+		if(mod == 'playMulti'){
+
+			var one = $('#1').val();
+			var two = $('#2').val();
+			var Player1 = new Player(one, '1');
+			var Player2 = new Player(two, '2');
+		}else{
+
+			var one = $('#unico').val();
+			var two = 'Computer';
+			var Player1 = new Player(one, '1');
+			//var Player2 = new Player(two, '2');
+			//Per il computer va creato una nuova funzione solo per il player con nome 'computer', utilizzando l'ereditarietà
+		}
+
 		var Nbox = $(this).attr('id');
 
 		if (IsNotUneven(i) == true){

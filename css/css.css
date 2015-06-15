@@ -25,7 +25,8 @@ label{
 	position: absolute;
 	border-style: solid;
 	display: none;
-	margin-top: 79px;
+	margin-top: 97px;
+	margin-left: 50px;
 }
 
 input#play input#ok{
@@ -70,7 +71,18 @@ input#play input#ok{
 	opacity: 0.8; 
 }
 
-#selectPlayer{
+#selectPlayerMulti{
+
+	width: 200px;
+	height: 250px;
+	margin-left: 50px;
+	margin-top: 25px;
+	background-color: rgb(128,128,128);
+	opacity: 0.8;
+	display: none; 
+}
+
+#selectPlayerSingle{
 
 	width: 200px;
 	height: 250px;
