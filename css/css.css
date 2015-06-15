@@ -1,0 +1,169 @@
+body{
+
+	margin: 0 0;
+}
+
+h1{
+
+	font-family: sans-serif;
+}
+
+label{
+
+	font-size: 21px;
+	font-family: sans-serif;
+	margin-left: 17px;
+}
+
+#alert{
+
+	height: 109px;
+	width: 194px;
+	z-index: 2;
+	border-radius: 22px;
+	background-color: rgb(128,128,128);
+	position: absolute;
+	border-style: solid;
+	display: none;
+	margin-top: 79px;
+}
+
+input#play input#ok{
+
+	width: 54px;
+}
+
+#container{
+
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+	display: none;
+}
+
+#container2{
+
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+}
+
+#win{
+
+	width: 200px;
+	height: 135px;
+	margin-left: 50px;
+	margin-top: 82px;
+	background-color: rgb(128,128,128);
+	opacity: 0.8;
+}
+
+#selectMod{
+
+	width: 200px;
+	height: 250px;
+	margin-left: 50px;
+	margin-top: 25px;
+	background-color: rgb(128,128,128);
+	opacity: 0.8; 
+}
+
+#selectPlayer{
+
+	width: 200px;
+	height: 250px;
+	margin-left: 50px;
+	margin-top: 25px;
+	background-color: rgb(128,128,128);
+	opacity: 0.8;
+	display: none; 
+}
+
+#game{
+
+	width: 100%;
+	height: 100%;
+}
+
+#first{
+
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: black;
+	float: left;
+}
+
+#second{
+
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: white;
+	float: left;
+}
+
+#third{
+
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: black;
+	float: left;
+}
+
+#fourth{
+
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: white;
+	float: left;
+}
+
+#fifth{
+
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: black;
+	float: left;
+}
+
+#sixth{
+
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: white;
+	float: left;
+}
+
+#seventh{
+
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: black;
+	float: left;
+}
+
+#eighth{
+
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: white;
+	float: left;
+}
+
+#ninth{
+
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: black;
+	float: left;
+}
