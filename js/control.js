@@ -843,296 +843,489 @@ Player.prototype.Brain = function(nbox){
 
 		case 'first':
 
-				if ($('#second').attr('class') === 'box'){
+				if ($('#second').find('img').attr('src') !== 'assets/BlackCross.png'){
 
-					if ($('#third').attr('class') !== 'box'){
+					if ($('#third').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('second');
+						if ($('#second').attr('class') === 'box'){
+
+							this.GetImg('second');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('third'); 
+					if ($('#third').attr('class') === 'box'){
+
+						this.GetImg('third');
+						return;
+					}
 				}
 
-				if ($('#fourth').attr('class') === 'box'){
+				if ($('#fourth').find('img').attr('src') !== 'assets/BlackCross.png'){
 
-					if ($('#seventh').attr('class') !== 'box'){
+					if ($('#seventh').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('fourth');
+						if ($('#fourth').attr('class') === 'box'){
+
+							this.GetImg('fourth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('seventh'); 
+					if ($('#seventh').attr('class') === 'box'){
+
+						this.GetImg('seventh');
+						return;
+					}
 				}
 
-				if ($('#fifth').attr('class') === 'box'){
+				if ($('#fifth').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-					if ($('#ninth').attr('class') !== 'box'){
+					if ($('#ninth').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('fifth');
+						if ($('#fifth').attr('class') === 'box'){
+
+							this.GetImg('fifth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('ninth'); 
+					if ($('#ninth').attr('class') === 'box'){
+
+						this.GetImg('ninth');
+						return;
+					}	
 				}
 			break;
 
 		case 'second':
 
-				if ($('#first').attr('class') === 'box'){
+				if ($('#first').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-					if ($('#third').attr('class') !== 'box'){
+					if ($('#third').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('first');
+						if ($('#first').attr('class') === 'box'){
+
+							this.GetImg('first');
+							return;
+						}
 					}else{
 
-						if ($('#fifth').attr('class') === 'box'){
+						if ($('#fifth').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-							if ($('#eighth').attr('class') !== 'box'){
+							if ($('#eighth').find('img').attr('src') === 'assets/BlackCross.png'){
 
-								this.GetImg('fifth');
+								if ($('#fifth').attr('class') === 'box'){
+
+									this.GetImg('fifth');
+									return;
+								}
 							}
 						}else{
 
-							this.GetImg('eighth');
+							if ($('#eighth').attr('class') === 'box'){
+
+								this.GetImg('eighth');
+								return;
+							}
 						}
 					}
 				}else{
 
-					this.GetImg('third'); 
+					if ($('#third').attr('class') === 'box'){
+
+						this.GetImg('third');
+						return;
+					}
 				}
 			break;
 
 		case 'third':
 
-				if ($('#second').attr('class') === 'box'){
+				if ($('#second').find('img').attr('src') !== 'assets/BlackCross.png'){
 
-					if ($('#first').attr('class') !== 'box'){
+					if ($('#first').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('second');
+						if ($('#second').attr('class') === 'box'){
+
+							this.GetImg('second');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('first'); 
+					if ($('#first').attr('class') === 'box'){
+
+						this.GetImg('first');
+						return;
+					}
 				}
 
-				if ($('#sixth').attr('class') === 'box'){
+				if ($('#sixth').find('img').attr('src') !== 'assets/BlackCross.png'){
 
-					if ($('#ninth').attr('class') !== 'box'){
+					if ($('#ninth').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('sixth');
+						if ($('#sixth').attr('class') === 'box'){
+
+							this.GetImg('sixth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('ninth'); 
+					if ($('#ninth').attr('class') === 'box'){
+
+						this.GetImg('ninth');
+						return;
+					}
 				}
 
-				if ($('#fifth').attr('class') === 'box'){
+				if ($('#fifth').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-					if ($('#seventh').attr('class') !== 'box'){
+					if ($('#seventh').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('fifth');
+						if ($('#fifth').attr('class') === 'box'){
+
+							this.GetImg('fifth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('seventh'); 
+					if ($('#seventh').attr('class') === 'box'){
+
+						this.GetImg('seventh');
+						return;
+					}
 				}
 			break;
 
 		case 'fourth':
 
-				if ($('#first').attr('class') === 'box'){
+				if ($('#first').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-					if ($('#seventh').attr('class') !== 'box'){
+					if ($('#seventh').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('first');
+						if ($('#first').attr('class') === 'box'){
+
+							this.GetImg('first');
+							return;
+						}
 					}else{
 
-						if ($('#fifth').attr('class') === 'box'){
+						if ($('#fifth').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-							if ($('#sixth').attr('class') !== 'box'){
+							if ($('#sixth').find('img').attr('src') === 'assets/BlackCross.png'){
 
-								this.GetImg('fifth');
+								if ($('#fifth').attr('class') === 'box'){
+
+									this.GetImg('fifth');
+									return;
+								}
 							}
 						}else{
 
-							this.GetImg('sixth');
+							if ($('#sixth').attr('class') === 'box'){
+
+								this.GetImg('sixth');
+								return;
+							}
 						}
 					}
 				}else{
 
-					this.GetImg('seventh'); 
+					if ($('#seventh').attr('class') === 'box'){
+
+						this.GetImg('seventh');
+						return;
+					}
 				}
 			break;		
 
 		case 'fifth':
 
-				if ($('#first').attr('class') === 'box'){
+				if ($('#first').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-					if ($('#ninth').attr('class') !== 'box'){
+					if ($('#ninth').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('first');
+						if ($('#first').attr('class') === 'box'){
+
+							this.GetImg('first');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('ninth'); 
+					if ($('#ninth').attr('class') === 'box'){
+
+						this.GetImg('ninth');
+						return;
+					}
 				}
 
-				if ($('#second').attr('class') === 'box'){
+				if ($('#second').find('img').attr('src') !== 'assets/BlackCross.png'){
 
-					if ($('#eighth').attr('class') !== 'box'){
+					if ($('#eighth').find('img').attr('src') === 'assets/BlackCross.png'){
 
-						this.GetImg('second');
+						if ($('#second').attr('class') === 'box'){
+
+							this.GetImg('second');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('eighth'); 
+					if ($('#eighth').attr('class') === 'box'){
+
+						this.GetImg('eighth');
+						return;
+					}
 				}
 
-				if ($('#third').attr('class') === 'box'){
+				if ($('#third').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-					if ($('#seventh').attr('class') !== 'box'){
+					if ($('#seventh').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('third');
+						if ($('#third').attr('class') === 'box'){
+
+							this.GetImg('third');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('seventh'); 
+					if ($('#seventh').attr('class') === 'box'){
+
+						this.GetImg('seventh');
+						return;
+					}
 				}
 
-				if ($('#fourth').attr('class') === 'box'){
+				if ($('#fourth').find('img').attr('src') !== 'assets/BlackCross.png'){
 
-					if ($('#sixth').attr('class') !== 'box'){
+					if ($('#sixth').find('img').attr('src') === 'assets/BlackCross.png'){
 
-						this.GetImg('fourth');
+						if ($('#fourth').attr('class') === 'box'){
+
+							this.GetImg('fourth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('sixth'); 
+					if ($('#sixth').attr('class') === 'box'){
+
+						this.GetImg('sixth');
+						return;
+					}
 				}
 			break;
 
 		case 'sixth':
 
-				if ($('#third').attr('class') === 'box'){
+				if ($('#third').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-					if ($('#ninth').attr('class') !== 'box'){
+					if ($('#ninth').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('third');
+						if ($('#third').attr('class') === 'box'){
+
+							this.GetImg('third');
+							return;
+						}
 					}else{
 
-						if ($('#fifth').attr('class') === 'box'){
+						if ($('#fifth').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-							if ($('#fourth').attr('class') !== 'box'){
+							if ($('#fourth').find('img').attr('src') === 'assets/BlackCross.png'){
 
-								this.GetImg('fifth');
+								if ($('#fifth').attr('class') === 'box'){
+
+									this.GetImg('fifth');
+									return;
+								}
 							}
 						}else{
 
-							this.GetImg('fourth');
+							if ($('#fourth').attr('class') === 'box'){
+
+								this.GetImg('fourth');
+								return;
+							}
 						}
 					}
 				}else{
 
-					this.GetImg('ninth'); 
+					if ($('#ninth').attr('class') === 'box'){
+
+						this.GetImg('ninth');
+						return;
+					}
 				}
 			break;
 
 		case 'seventh':
 
-				if ($('#eighth').attr('class') === 'box'){
+				if ($('#eighth').find('img').attr('src') !== 'assets/BlackCross.png'){
 
-					if ($('#ninth').attr('class') !== 'box'){
+					if ($('#ninth').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('eighth');
+						if ($('#eighth').attr('class') === 'box'){
+
+							this.GetImg('eighth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('ninth'); 
+					if ($('#ninth').attr('class') === 'box'){
+
+						this.GetImg('ninth');
+						return;
+					}
 				}
 
-				if ($('#fourth').attr('class') === 'box'){
+				if ($('#fourth').find('img').attr('src') !== 'assets/BlackCross.png'){
 
-					if ($('#first').attr('class') !== 'box'){
+					if ($('#first').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('fourth');
+						if ($('#fourth').attr('class') === 'box'){
+
+							this.GetImg('fourth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('first'); 
+					if ($('#first').attr('class') === 'box'){
+
+						this.GetImg('first');
+						return;
+					}
 				}
 
-				if ($('#fifth').attr('class') === 'box'){
+				if ($('#fifth').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-					if ($('#third').attr('class') !== 'box'){
+					if ($('#third').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('fifth');
+						if ($('#fifth').attr('class') === 'box'){
+
+							this.GetImg('fifth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('third'); 
+					if ($('#third').attr('class') === 'box'){
+
+						this.GetImg('third');
+						return;
+					}
 				}
 			break;
 
 		case 'eighth':
 
-				if ($('#seventh').attr('class') === 'box'){
+				if ($('#seventh').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-					if ($('#ninth').attr('class') !== 'box'){
+					if ($('#ninth').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('seventh');
+						if ($('#seventh').attr('class') === 'box'){
+
+							this.GetImg('seventh');
+							return;
+						}
+
 					}else{
 
-						if ($('#fifth').attr('class') === 'box'){
+						if ($('#fifth').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-							if ($('#second').attr('class') !== 'box'){
+							if ($('#second').find('img').attr('src') === 'assets/BlackCross.png'){
 
-								this.GetImg('fifth');
+								if ($('#fifth').attr('class') === 'box'){
+
+									this.GetImg('fifth');
+									return;
+								}
 							}
 						}else{
 
-							this.GetImg('second');
+							if ($('#second').attr('class') === 'box'){
+
+								this.GetImg('second');
+								return;
+							}
 						}
 					}
 				}else{
 
-					this.GetImg('ninth'); 
+					if ($('#ninth').attr('class') === 'box'){
+
+						this.GetImg('ninth');
+						return;
+					}
 				}
 			break;
 
 		case 'ninth':
 
-				if ($('#fifth').attr('class') === 'box'){
+				if ($('#fifth').find('img').attr('src') !== 'assets/WhiteCross.png'){
 
-					if ($('#first').attr('class') !== 'box'){
+					if ($('#first').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('fifth');
+						if ($('#fifth').attr('class') === 'box'){
+
+							this.GetImg('fifth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('first'); 
+					if ($('#first').attr('class') === 'box'){
+
+						this.GetImg('first');
+						return;
+					}
 				}
 
-				if ($('#eighth').attr('class') === 'box'){
+				if ($('#eighth').find('img').attr('src') !== 'assets/BlackCross.png'){
 
-					if ($('#seventh').attr('class') !== 'box'){
+					if ($('#seventh').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('eighth');
+						if ($('#eighth').attr('class') === 'box'){
+
+							this.GetImg('eighth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('seventh'); 
+					if ($('#seventh').attr('class') === 'box'){
+
+						this.GetImg('seventh');
+						return;
+					}
 				}
 
-				if ($('#sixth').attr('class') === 'box'){
+				if ($('#sixth').find('img').attr('src') !== 'assets/BlackCross.png'){
 
-					if ($('#third').attr('class') !== 'box'){
+					if ($('#third').find('img').attr('src') === 'assets/WhiteCross.png'){
 
-						this.GetImg('sixth');
+						if ($('#sixth').attr('class') === 'box'){
+
+							this.GetImg('sixth');
+							return;
+						}
 					}
 				}else{
 
-					this.GetImg('third'); 
+					if ($('#third').attr('class') === 'box'){
+
+						this.GetImg('third');
+						return;
+					}
 				}
 			break;					
 	}
