@@ -116,7 +116,10 @@ $(document).ready(function(){
 			   	}    
 			}
 
-			Player2.Brain(Nbox);
+			if($('#win').attr('class') == ''){
+
+				Player2.Brain(Nbox);
+			}
 
 			i+=2;
 

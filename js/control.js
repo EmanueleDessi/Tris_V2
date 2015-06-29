@@ -886,21 +886,29 @@ Player.prototype.Brain = function(nbox){
 
 	var bau = this.Builder();
 
+
+	//QUESTI CONTROLLI PERMETTONO AL COMPUTER DI CERCARE DI VINCERE
 	//possibilità tris 123
 	if($('#second').find('img').attr('src') == 'assets/BlackRing.png'){
 
 		if($('#third').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-			this.GetImg('first');
-			this.Controller('first');
-			return;
+			if ($('#first').attr('class') === 'box'){
+
+				this.GetImg('first');
+				this.Controller('first');
+				return;
+			}
 		}else{
 
 			if($('#first').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('third');
-				this.Controller('third');
-				return;
+				if ($('#third').attr('class') === 'box'){
+
+					this.GetImg('third');
+					this.Controller('third');
+					return;
+				}
 			}
 		}
 	}else{
@@ -909,9 +917,12 @@ Player.prototype.Brain = function(nbox){
 
 			if($('#third').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('second');
-				this.Controller('second');
-				return;
+				if ($('#second').attr('class') === 'box'){
+
+					this.GetImg('second');
+					this.Controller('second');
+					return;
+				}
 			}
 		}
 	}
@@ -921,16 +932,22 @@ Player.prototype.Brain = function(nbox){
 
 		if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-			this.GetImg('first');
-			this.Controller('first');
-			return;
+			if ($('#first').attr('class') === 'box'){
+
+				this.GetImg('first');
+				this.Controller('first');
+				return;
+			}
 		}else{
 
 			if($('#first').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('seventh');
-				this.Controller('seventh');
-				return;
+				if ($('#seventh').attr('class') === 'box'){
+
+					this.GetImg('seventh');
+					this.Controller('seventh');
+					return;
+				}
 			}
 		}
 	}else{
@@ -939,9 +956,12 @@ Player.prototype.Brain = function(nbox){
 
 			if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('fourth');
-				this.Controller('fourth');
-				return;
+				if ($('#fourth').attr('class') === 'box'){
+
+					this.GetImg('fourth');
+					this.Controller('fourth');
+					return;
+				}
 			}
 		}
 	}
@@ -951,16 +971,22 @@ Player.prototype.Brain = function(nbox){
 
 		if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-			this.GetImg('first');
-			this.Controller('first');
-			return;
+			if ($('#first').attr('class') === 'box'){
+
+				this.GetImg('first');
+				this.Controller('first');
+				return;
+			}
 		}else{
 
 			if($('#first').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('ninth');
-				this.Controller('ninth');
-				return;
+				if ($('#ninth').attr('class') === 'box'){
+
+					this.GetImg('ninth');
+					this.Controller('ninth');
+					return;
+				}
 			}
 		}
 	}else{
@@ -969,9 +995,12 @@ Player.prototype.Brain = function(nbox){
 
 			if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('fifth');
-				this.Controller('fifth');
-				return;
+				if ($('#fifth').attr('class') === 'box'){
+
+					this.GetImg('fifth');
+					this.Controller('fifth');
+					return;
+				}
 			}
 		}
 	}
@@ -981,16 +1010,22 @@ Player.prototype.Brain = function(nbox){
 
 		if($('#eighth').find('img').attr('src') == 'assets/BlackRing.png'){
 
-			this.GetImg('second');
-			this.Controller('second');
-			return;
+			if ($('#second').attr('class') === 'box'){
+
+				this.GetImg('second');
+				this.Controller('second');
+				return;
+			}
 		}else{
 
 			if($('#second').find('img').attr('src') == 'assets/BlackRing.png'){
 
-				this.GetImg('eighth');
-				this.Controller('eighth');
-				return;
+				if ($('#eighth').attr('class') === 'box'){
+
+					this.GetImg('eighth');
+					this.Controller('eighth');
+					return;
+				}
 			}			
 		}
 	}else{
@@ -999,9 +1034,12 @@ Player.prototype.Brain = function(nbox){
 
 			if($('#eighth').find('img').attr('src') == 'assets/BlackRing.png'){
 
-				this.GetImg('fifth');
-				this.Controller('fifth');
-				return;
+				if ($('#fifth').attr('class') === 'box'){
+
+					this.GetImg('fifth');
+					this.Controller('fifth');
+					return;
+				}
 			}
 		}
 	}
@@ -1011,16 +1049,22 @@ Player.prototype.Brain = function(nbox){
 
 		if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-			this.GetImg('third');
-			this.Controller('third');
-			return;
+			if ($('#third').attr('class') === 'box'){
+
+				this.GetImg('third');
+				this.Controller('third');
+				return;
+			}
 		}else{
 
 			if($('#third').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('ninth');
-				this.Controller('ninth');
-				return;
+				if ($('#ninth').attr('class') === 'box'){
+
+					this.GetImg('ninth');
+					this.Controller('ninth');
+					return;
+				}
 			}
 		}
 	}else{
@@ -1029,9 +1073,12 @@ Player.prototype.Brain = function(nbox){
 
 			if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('sixth');
-				this.Controller('sixth');
-				return;
+				if ($('#sixth').attr('class') === 'box'){
+
+					this.GetImg('sixth');
+					this.Controller('sixth');
+					return;
+				}
 			}			
 		}
 	}
@@ -1041,16 +1088,22 @@ Player.prototype.Brain = function(nbox){
 
 		if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-			this.GetImg('third');
-			this.Controller('third');
-			return;
+			if ($('#third').attr('class') === 'box'){
+
+				this.GetImg('third');
+				this.Controller('third');
+				return;
+			}
 		}else{
 
 			if($('#third').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('seventh');
-				this.Controller('seventh');
-				return;
+				if ($('#seventh').attr('class') === 'box'){
+
+					this.GetImg('seventh');
+					this.Controller('seventh');
+					return;
+				}
 			}
 		}
 	}else{
@@ -1059,9 +1112,12 @@ Player.prototype.Brain = function(nbox){
 
 			if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('fifth');
-				this.Controller('fifth');
-				return;
+				if ($('#fifth').attr('class') === 'box'){
+
+					this.GetImg('fifth');
+					this.Controller('fifth');
+					return;
+				}
 			}
 		}
 	}
@@ -1071,16 +1127,22 @@ Player.prototype.Brain = function(nbox){
 
 		if($('#sixth').find('img').attr('src') == 'assets/BlackRing.png'){
 
-			this.GetImg('fourth');
-			this.Controller('fourth');
-			return;
+			if ($('#fourth').attr('class') === 'box'){
+
+				this.GetImg('fourth');
+				this.Controller('fourth');
+				return;
+			}
 		}else{
 
 			if($('#fourth').find('img').attr('src') == 'assets/BlackRing.png'){
 
-				this.GetImg('sixth');
-				this.Controller('sixth');
-				return;
+				if ($('#sixth').attr('class') === 'box'){
+
+					this.GetImg('sixth');
+					this.Controller('sixth');
+					return;
+				}
 			}
 		}
 	}else{
@@ -1089,9 +1151,12 @@ Player.prototype.Brain = function(nbox){
 
 			if($('#sixth').find('img').attr('src') == 'assets/BlackRing.png'){
 
-				this.GetImg('fifth');
-				this.Controller('fifth');
-				return;
+				if ($('#fifth').attr('class') === 'box'){
+
+					this.GetImg('fifth');
+					this.Controller('fifth');
+					return;
+				}
 			}
 		}
 	}
@@ -1101,16 +1166,22 @@ Player.prototype.Brain = function(nbox){
 
 		if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-			this.GetImg('seventh');
-			this.Controller('seventh');
-			return;
+			if ($('#seventh').attr('class') === 'box'){
+
+				this.GetImg('seventh');
+				this.Controller('seventh');
+				return;
+			}
 		}else{
 
 			if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('ninth');
-				this.Controller('ninth');
-				return;
+				if ($('#ninth').attr('class') === 'box'){
+
+					this.GetImg('ninth');
+					this.Controller('ninth');
+					return;
+				}
 			}
 		}
 	}else{
@@ -1119,12 +1190,17 @@ Player.prototype.Brain = function(nbox){
 
 			if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
 
-				this.GetImg('eighth');
-				this.Controller('eighth');
-				return;
+				if ($('#eighth').attr('class') === 'box'){
+
+					this.GetImg('eighth');
+					this.Controller('eighth');
+					return;
+				}
 			}
 		}
 	}
+
+
 
 	//questo switch è un controllo che serve per cercare di impedire all'avversario di fare tris
 	switch(nbox){
@@ -1619,7 +1695,24 @@ Player.prototype.Brain = function(nbox){
 			break;					
 	}
 
-	this.GetImg('fifth');
+	if($('#fifth').attr('class') === 'box'){
+
+		this.GetImg('fifth');
+	}else{
+
+		if($('#first').attr('class') === 'box'){
+
+			this.GetImg('first');
+		}else{
+
+			if($('#third').attr('class') === 'box'){
+
+				this.GetImg('third');
+			}
+		}
+	}
+
+
 }
 
 function IsNotUneven(numero)
