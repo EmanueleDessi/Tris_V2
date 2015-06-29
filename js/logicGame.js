@@ -122,8 +122,11 @@ $(document).ready(function(){
 
 			if(i == 9){
 
-				$('#win').find('h1').append('GAME IS OVER');
-				$('#container').show();
+				if($('#win').attr('class') == ''){
+
+					$('#win').find('h1').append('GAME IS OVER');
+					$('#container').show();
+				}
 			}
 		}
 

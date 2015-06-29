@@ -144,6 +144,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -157,6 +158,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -170,6 +172,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show(); 
 						}
 					}
@@ -185,6 +188,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -198,6 +202,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -211,6 +216,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show(); 
 						}
 					}
@@ -229,6 +235,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -241,6 +248,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -254,6 +262,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -266,6 +275,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -285,6 +295,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -298,6 +309,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -311,6 +323,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show(); 
 						}
 					}
@@ -325,6 +338,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -338,6 +352,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -351,6 +366,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show(); 
 						}
 					}
@@ -370,6 +386,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -383,6 +400,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -397,6 +415,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -410,6 +429,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -429,6 +449,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -442,6 +463,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -455,6 +477,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -468,6 +491,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -482,6 +506,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -495,6 +520,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -508,6 +534,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -521,6 +548,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -540,6 +568,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -553,6 +582,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -567,6 +597,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -580,6 +611,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -599,6 +631,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -612,6 +645,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -625,6 +659,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show(); 
 						}
 					}
@@ -640,6 +675,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -653,6 +689,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -666,6 +703,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show(); 
 						}
 					}
@@ -684,6 +722,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -696,6 +735,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -709,6 +749,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -721,6 +762,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -740,6 +782,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -753,6 +796,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -766,6 +810,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show(); 
 						}
 					}
@@ -780,6 +825,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -793,6 +839,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show();
 						}
 					}
@@ -806,6 +853,7 @@ Player.prototype.Controller = function(nbox){
 							console.log('hai vinto!!!');
 							$('#win').find('h1').append('THE WINNER IS');
 							$('#win').find('h2').append('<center><strong>'+this.nome+'</strong></center>');
+							$('#win').attr('class', 'full');
 							$('#container').show(); 
 						}
 					}
@@ -837,6 +885,246 @@ Player.prototype.Builder = function(){
 Player.prototype.Brain = function(nbox){
 
 	var bau = this.Builder();
+
+	//possibilità tris 123
+	if($('#second').find('img').attr('src') == 'assets/BlackRing.png'){
+
+		if($('#third').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			this.GetImg('first');
+			this.Controller('first');
+			return;
+		}else{
+
+			if($('#first').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('third');
+				this.Controller('third');
+				return;
+			}
+		}
+	}else{
+
+		if($('#first').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			if($('#third').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('second');
+				this.Controller('second');
+				return;
+			}
+		}
+	}
+
+	//possibilità tris 147
+	if($('#fourth').find('img').attr('src') == 'assets/BlackRing.png'){
+
+		if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			this.GetImg('first');
+			this.Controller('first');
+			return;
+		}else{
+
+			if($('#first').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('seventh');
+				this.Controller('seventh');
+				return;
+			}
+		}
+	}else{
+
+		if($('#first').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('fourth');
+				this.Controller('fourth');
+				return;
+			}
+		}
+	}
+
+	//possibilità tris 159
+	if($('#fifth').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+		if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			this.GetImg('first');
+			this.Controller('first');
+			return;
+		}else{
+
+			if($('#first').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('ninth');
+				this.Controller('ninth');
+				return;
+			}
+		}
+	}else{
+
+		if($('#first').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('fifth');
+				this.Controller('fifth');
+				return;
+			}
+		}
+	}
+
+	//possibilità tris 258
+	if($('#fifth').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+		if($('#eighth').find('img').attr('src') == 'assets/BlackRing.png'){
+
+			this.GetImg('second');
+			this.Controller('second');
+			return;
+		}else{
+
+			if($('#second').find('img').attr('src') == 'assets/BlackRing.png'){
+
+				this.GetImg('eighth');
+				this.Controller('eighth');
+				return;
+			}			
+		}
+	}else{
+
+		if($('#second').find('img').attr('src') == 'assets/BlackRing.png'){
+
+			if($('#eighth').find('img').attr('src') == 'assets/BlackRing.png'){
+
+				this.GetImg('fifth');
+				this.Controller('fifth');
+				return;
+			}
+		}
+	}
+
+	//possibilità 369
+	if($('#sixth').find('img').attr('src') == 'assets/BlackRing.png'){
+
+		if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			this.GetImg('third');
+			this.Controller('third');
+			return;
+		}else{
+
+			if($('#third').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('ninth');
+				this.Controller('ninth');
+				return;
+			}
+		}
+	}else{
+
+		if($('#third').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('sixth');
+				this.Controller('sixth');
+				return;
+			}			
+		}
+	}
+
+	//possibilità tris 357
+	if($('#fifth').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+		if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			this.GetImg('third');
+			this.Controller('third');
+			return;
+		}else{
+
+			if($('#third').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('seventh');
+				this.Controller('seventh');
+				return;
+			}
+		}
+	}else{
+
+		if($('#third').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('fifth');
+				this.Controller('fifth');
+				return;
+			}
+		}
+	}
+
+	//possibilità tris 456
+	if($('#fifth').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+		if($('#sixth').find('img').attr('src') == 'assets/BlackRing.png'){
+
+			this.GetImg('fourth');
+			this.Controller('fourth');
+			return;
+		}else{
+
+			if($('#fourth').find('img').attr('src') == 'assets/BlackRing.png'){
+
+				this.GetImg('sixth');
+				this.Controller('sixth');
+				return;
+			}
+		}
+	}else{
+
+		if($('#fourth').find('img').attr('src') == 'assets/BlackRing.png'){
+
+			if($('#sixth').find('img').attr('src') == 'assets/BlackRing.png'){
+
+				this.GetImg('fifth');
+				this.Controller('fifth');
+				return;
+			}
+		}
+	}
+
+	//possibilità tris 789
+	if($('#eighth').find('img').attr('src') == 'assets/BlackRing.png'){
+
+		if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			this.GetImg('seventh');
+			this.Controller('seventh');
+			return;
+		}else{
+
+			if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('ninth');
+				this.Controller('ninth');
+				return;
+			}
+		}
+	}else{
+
+		if($('#seventh').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+			if($('#ninth').find('img').attr('src') == 'assets/WhiteRing.png'){
+
+				this.GetImg('eighth');
+				this.Controller('eighth');
+				return;
+			}
+		}
+	}
 
 	//questo switch è un controllo che serve per cercare di impedire all'avversario di fare tris
 	switch(nbox){
@@ -1297,6 +1585,7 @@ Player.prototype.Brain = function(nbox){
 						if ($('#eighth').attr('class') === 'box'){
 
 							this.GetImg('eighth');
+							this.Controller('eighth');
 							return;
 						}
 					}
